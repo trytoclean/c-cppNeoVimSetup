@@ -1,0 +1,11 @@
+{
+  "name": "clang toolkit",
+  "generator": "Ninja",
+
+  "compilers": {
+    "C": "/usr/bin/clang",
+    "CXX": "/usr/bin/clang++"
+  },
+
+  "linker": "/usr/bin/lld"
+}
